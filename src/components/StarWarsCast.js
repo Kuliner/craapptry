@@ -68,7 +68,7 @@ const StarWarsCast = () => {
             </div>
           })
         }
-        <Grid className={styles.tile}>
+        <Grid className={styles.buttonTile}>
           <Button variant="contained" onClick={() => {
             fetchData(data?.previous);
           }}>

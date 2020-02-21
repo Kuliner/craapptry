@@ -1,16 +1,24 @@
 .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .tileParagraph {
-    margin-left: 10px;
-    font-size: 15px;
-    text-align: left;
-    color: black;
-  }
-  .tile {
-    margin: 5px;
-    padding: 5px;
-    width: 300px;
-    background:beige; 
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tileParagraph {
+  margin-left: 10px;
+  font-size: 15px;
+  text-align: left;
+  color: black;
+}
+
+.tile {
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+  background: beige;
+}
+
+.buttonTile {
+  background: beige;
+  margin: 5px;
+  padding: 5px;
+}
